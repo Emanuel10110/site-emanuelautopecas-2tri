@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Gonçalves Autopeças</title>
+     <link rel="stylesheet" href="reset.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+     <link rel="stylesheet" href="styles.css">
+
+<body>  
+        <header class="cabecalho">
+        <div class="container">
+        <input type="checkbox" id="menu" class="container-botao">
+        <label for="menu">
+        <span class="menu-hamburguer container-imagem"></span>
+        </label>
+        <ul class="lista-menu">
+        <li class="lista-menu-titulo">Autopeças</li> 
+        <li class="lista-menu-item">
+            <a href="#" class="lista-menu-link">Estoques</a>
+         </li>
+        <li class="lista-menu-item">
+            <a href="#" class="lista-menu-link">Pneu</a>
+        </li>
+        <li class="lista-menu-item">
+             <a href="#" class="lista-menu-link">Acessórios</a>
+        </li>
+        <li class="lista-menu-item">
+            <a href="#" class="lista-menu-link">Iluminação</a>
+        </li>
+        </ul>
+        <img class="logo" src="img/logo.jpg" alt="logo-capa">
+        </div>
+        <div class="container">
+        <a href="#"><img src="img/Perfil.svg" alt="Perfil" class="container-imagem"></a>
+        <a href="#"><img src="img/Compras.svg" alt="compras" class="container-imagem"></a> 
+        </div>
+        </header>
+
+        <section class="banner">
+        <h2 class="banner__titulo">Emanuel Gonçalves</h2>
+        <p class="banner__texto">Apaixonados por veículos, assim como você</p>
+        <input type="search" class="banner__pesquisa" placeholder="Pesquise">
+        </section>
+
+
+
+        <section class="carrossel">
+            <h2 class="carrossel-titulo">Produtos</h2>
+             <!-- Slider main container -->
+            <div class="carrossel_container">
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/amortecedor gol.webp" alt="amortecedor"></div>
+            <div class="swiper-slide"><img src="img/amortecedor.webp" alt="amortecedor2"></div>
+            <div class="swiper-slide"><img src="img/embreagem.webp" alt="embreagem"></div>
+            <div class="swiper-slide"><img src="img/oleo.webp" alt="oleo"></div>
+
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+
+        <div class="card">
+            <!--1 linha-->
+            <div class="card_descricao">
+                <!--1 coluna-->
+                <div class="descricao">
+                    <h3 class="descricao_titulo">Marque sua revisão</h3>
+                    <h2 class="descricao_titulo-2">Compre peças</h2>
+                    <p class="descricao_texto">O carros mais populares do Brasil
+                    </p>
+                </div>
+                <!--2 coluna-->
+                <img src="img/uno.webp" alt="descricao" class="descricao_imagem">
+            </div>
+
+            <!--2 linha-->
+            <div class="card_botoes">
+                <!--1 coluna-->
+                <ul class="botoes">
+                    <li class="botoes_item"><img src="img/Compras.svg" alt="compras"></li>
+                    <li class="botoes_item"><img src="img/Perfil.svg" alt="Perfil"></li>
+                </ul>
+                <!--2 coluna-->
+                <a href="#" class="botoes_ancora">SAIBA MAIS...</a>
+            </div>
+        </div>
+    </div>
+
+        </section>
+
+           
+    <section class="topicos">
+        <h2 class="topicos_titulo">Suporte</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Quem somos</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Atendimento</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Troca e Devolução</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Entrega</a>            
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="contato">
+        <h2 class="contato_titulo">Estragou? Emanuel arrumou!</h2>
+        <p class="contato_texto">Veja todas as categorias.</p>
+        <input type="email" placeholder="Login" class="contato_email">
+    </section>
+
+    <hr/>
+
+    <footer class="rodapé">
+        <h2 class="rodapé_titulo">Gonçalves</h2>
+
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">Afiliações</li>
+                <li class="lista_rodapé_item">
+                    <img src="img/CasaDoCodigo.png" alt="Mecânico">
+                    <a href="#" class="lista_rodapé_link">Mecânico</a>
+                </li>
+
+                <li class="lista_rodapé_item">
+                    <img src="img/Caelum.png" alt="Caelum">
+                    <a href="#" class="lista_rodapé_link">Caelum</a>
+                </li>
+        </ul>
+
+
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">Alura Gonçalves</li>
+            <li class="lista_rodapé_item">
+                <img src="img/Alura.png" alt="Alura">
+                <a href="#" class="lista_rodapé_link">Alura</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraEmpresas.png" alt="Alura empresa">
+                <a href="#" class="lista_rodapé_link">Alura Para Empresas</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraLatam.png" alt="Alura LATAM">
+                <a href="#" class="lista_rodapé_link">Alura LATAM</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraStart.png" alt="Start">
+                <a href="#" class="lista_rodapé_link">Alura Start</a>
+            </li>
+
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraLingua.png" alt="Mecânica">
+                <a href="#" class="lista_rodapé_link">Alura Mecânica</a>
+            </li>
+
+        </ul>
+
+
+
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">Mecânica</li>
+            <li class="lista_rodapé_item">
+                <img src="img/HipstersTech.png" alt="Tech">
+                <a href="#" class="lista_rodapé_link">Tech</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/Scuba.png" alt="Scuba ">
+                <a href="#" class="lista_rodapé_link">Bomba d'água</a>
+            </li>
+
+
+            <li class="lista_rodapé_item">
+                <img src="img/LikeABoss.png" alt="LikeABoss">
+                <a href="#" class="lista_rodapé_link">Turbo LikeABoss</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/CarreiraSemFronteira.png" alt="Carreira">
+                <a href="#" class="lista_rodapé_link">Carreira Santo Antônio</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/HipstersJobs.png" alt="Rodas">
+                <a href="#" class="lista_rodapé_link">Rodas</a>
+            </li>
+
+        </ul>   
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            }, 
+            });     
+
+    </script>
+
+    </body>
+
+</html>
